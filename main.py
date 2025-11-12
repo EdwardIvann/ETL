@@ -10,7 +10,7 @@ API_ENDPOINT = "https://brasil.io/api/v1/dataset/gastos-diretos/gastos/data/"
 CAMINHO_JSON = PASTA_RAIZ / "raw"
 CAMINHO_PARQUET = PASTA_RAIZ / "bronze"
 AUTH_KEY = "0a3c26398bb82d107772cf4a05967ebbb7c95bcc"
-LIMITE_PAGINAS = 3
+LIMITE_PAGINAS = 1000
 DELAY_REQUISICAO_SEG = 1
 DELAY_RATE_LIMIT_SEG = 15
 
